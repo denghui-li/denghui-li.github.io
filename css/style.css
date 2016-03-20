@@ -42,7 +42,7 @@ body a:hover{
 }
 .banner2 {
   min-height: 700px;
-  background: url(../images/123.gif)no-repeat 0px -114px;
+  background: url(../images/lunbo2.png)no-repeat 0px -114px;
   background-size: cover;
 }
 .banner-text {
@@ -206,7 +206,7 @@ body a:hover{
   position: absolute;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   bottom: 6%;
-  left: 10%;
+  right: 14%;
   z-index: 3;
   text-indent: -9999px;
   overflow: hidden;
@@ -219,7 +219,7 @@ body a:hover{
   opacity: 1.0;
 }
 .callbacks_nav.next {
-  left: 14%;
+  right: 10%;
   background: url(../images/icons.png)no-repeat -47px 0px;
 }
 #slider3-pager a ,#slider4-pager a {
@@ -784,6 +784,8 @@ p.cnt-p {
   font-weight: 400;
   letter-spacing: 1px;
   outline: none;
+/*  position: absolute;
+  right:0;*/
   transition: 0.5s all ease;
   -webkit-transition: 0.5s all ease;
   -moz-transition: 0.5s all ease;
@@ -793,7 +795,7 @@ p.cnt-p {
 .contact-form input[type="submit"]:hover {
   border: 1px solid #fed201;
   background-color: #fff;
-  color: #fed201;
+  color: #14B9D5;
 }
 .contact-form-info:nth-child(1) {
   padding-left: 0;
@@ -1257,7 +1259,7 @@ p.cnt-p {
 }
 .callbacks_nav.next {
   background: url(../images/icons.png)no-repeat -50px -2px;
-    left: 16%;
+    right: 16%;
 }
 .banner2 {
   min-height: 304px;
