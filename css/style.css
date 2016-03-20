@@ -1,6 +1,7 @@
 body{
 	margin:0;
 	font-family: 'Roboto-Regular';
+/*  background: #aaf7ba;*/
 }
 @font-face {
       font-family: 'Roboto-Regular';
@@ -36,12 +37,12 @@ body a:hover{
 }
 .banner1 {
   min-height: 700px;
-  background: url(../images/banner.jpg)no-repeat 0px 0px;
+  background: url(../images/beijing1.png)no-repeat 0px 0px;
   background-size: cover;
 }
 .banner2 {
   min-height: 700px;
-  background: url(../images/banner1.jpg)no-repeat 0px -114px;
+  background: url(../images/123.gif)no-repeat 0px -114px;
   background-size: cover;
 }
 .banner-text {
@@ -50,7 +51,7 @@ body a:hover{
   text-align: center;
   position: absolute;
   top: 0%;
-  right: 20%;
+  left:10%;
   z-index: 9;
 }
 .logo {
@@ -524,7 +525,14 @@ ul.social-slide li i.mac{
 .features-grids figure figcaption::after {
 	pointer-events: none;
 }
-
+.features-grids figure figcaption h4{
+  font-weight: bold;
+  font-size: 26px;
+  /*color:#14b9d5;*/
+}
+.features-grids figure figcaption p{
+  /*color:#14b9d5;*/
+} 
 .features-grids figure figcaption{
 	position: absolute;
 	top: 0;
@@ -534,6 +542,7 @@ ul.social-slide li i.mac{
 }
 figure.effect-bubba {
 	background: #6d6e70;
+  overflow: hidden;
 }
 figure.effect-bubba:hover img {
 	opacity: 0.3;
@@ -800,7 +809,7 @@ p.cnt-p {
 /*--//contact--*/
 /*--footer--*/
 .footer {
-  background-color: #fed201;
+  background-color: #333;
   padding: 2em 0;
   text-align: center;
 }
